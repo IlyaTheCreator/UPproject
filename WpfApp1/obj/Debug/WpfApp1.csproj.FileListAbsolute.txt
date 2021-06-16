@@ -13,3 +13,16 @@ C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateReso
 C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page1.g.cs
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page2.g.cs
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page1.baml
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page2.baml
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.dll
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MathNet.Numerics.dll
+C:\Users\Shah\source\repos\WpfApp1\WpfApp1\bin\Debug\MathNet.Numerics.xml

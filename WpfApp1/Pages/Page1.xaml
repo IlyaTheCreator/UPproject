@@ -1,0 +1,58 @@
+﻿<Page x:Class="WpfApp1.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="13"
+      TextOptions.TextFormattingMode="Ideal"
+      TextOptions.TextRenderingMode="Auto"
+      Background="{DynamicResource MaterialDesignPaper}"
+      FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1" Width="1200" Height="630">
+
+    <Grid>
+        <materialDesign:Card Margin="400, 110" Padding="30" MaxWidth="400">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock
+                    Style="{StaticResource MaterialDesignHeadline4TextBlock}"
+                    Text="Крамер-мазафакер" />
+                <TextBlock
+                    Style="{StaticResource MaterialDesignSubtitle1TextBlock}"
+                    Margin="0, 15"
+                    Text="Введите кол-во переменных:" />
+
+                <TextBox
+                    x:Name="amount"
+                    materialDesign:HintAssist.Hint="Число"
+                    materialDesign:TextFieldAssist.TextBoxViewMargin="1 0 1 0"
+                    materialDesign:HintAssist.FloatingScale="0.50"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    FontSize="24" />
+
+                <Button
+                    Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Width="150"
+                    Height="40"
+                    HorizontalAlignment="Center"
+                    Foreground="#fff"
+                    Click="InsertDataBtn_Click"
+                    Margin="0, 50, 0, 0">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#a50247" Offset="0" />
+                            <GradientStop Color="#da1b6c" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Ввести данные
+                </Button>
+
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Page>

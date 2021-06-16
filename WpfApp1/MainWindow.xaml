@@ -5,72 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="СЛАУ Крамер" Height="400" Width="530" Background="#4CC9F0">
-    <Grid Margin="0,0,2,1">
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="0*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
-        <TextBox Name="a1" HorizontalAlignment="Left" Height="20" Margin="30,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="a2" HorizontalAlignment="Left" Height="20" Margin="130,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="a3" HorizontalAlignment="Left" Height="20" Margin="230,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Text="" TextChanged="TextBox_TextChanged_2" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="a4" HorizontalAlignment="Left" Height="20" Margin="330,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="b1" HorizontalAlignment="Left" Height="20" Margin="30,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="b2" HorizontalAlignment="Left" Height="20" Margin="130,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="b3" HorizontalAlignment="Left" Height="20" Margin="230,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="b4" HorizontalAlignment="Left" Height="20" Margin="330,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="c1" HorizontalAlignment="Left" Height="20" Margin="30,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="c2" HorizontalAlignment="Left" Height="20" Margin="130,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="c3" HorizontalAlignment="Left" Height="20" Margin="230,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="c4" HorizontalAlignment="Left" Height="20" Margin="330,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="d1" HorizontalAlignment="Left" Height="20" Margin="30,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="d2" HorizontalAlignment="Left" Height="20" Margin="130,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="d3" HorizontalAlignment="Left" Height="20" Margin="230,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="d4" HorizontalAlignment="Left" Height="20" Margin="330,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="x1" HorizontalAlignment="Left" Height="20" Margin="90,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged_3"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="x2" HorizontalAlignment="Left" Height="20" Margin="330,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="x3" HorizontalAlignment="Left" Height="20" Margin="90,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="x4" HorizontalAlignment="Left" Height="20" Margin="330,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Grid.Column="1"  FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x2 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,24,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x1 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,64,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x1 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,104,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x1 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,144,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x2 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,64,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x2 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,104,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x2 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,144,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x3 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,144,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x3 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,104,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x3 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,64,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x3 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,24,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x1 +" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,24,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14" Foreground="#03045E"/>
-        <Label Content="x4 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="390,24,0,0" Height="30" Width="40" Grid.Column="1" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x4 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="390,64,0,0" Height="30" Width="40" Grid.Column="1" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x4 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="390,104,0,0" Height="30" Width="40" Grid.Column="1" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x4 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="390,144,0,0" Height="30" Width="40" Grid.Column="1" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x2 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,235,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x1 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,235,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x3 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,275,0,0" Height="30" Width="40" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <Label Content="x4 =" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="285,275,0,0" Height="30" Width="40" Grid.Column="1" FontFamily="Comic Sans MS" FontSize="14"  Foreground="#03045E"/>
-        <TextBox Name="a0" HorizontalAlignment="Left" Height="20" Margin="430,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
-        <TextBox Name="b0" HorizontalAlignment="Left" Height="20" Margin="430,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
-        <TextBox Name="c0" HorizontalAlignment="Left" Height="20" Margin="430,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
-        <TextBox Name="d0" HorizontalAlignment="Left" Height="20" Margin="430,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
-        <Button Content="Решить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="320,320,0,0" Grid.Column="1" Height="30" Click="Button_Click"   FontFamily="Comic Sans MS" FontSize="15" Foreground="#03045E" Background="#00B4D8"/>
-        <TextBox Name="op1" HorizontalAlignment="Left" Height="20" Margin="30,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  Foreground="#03045E" FontFamily="Comic Sans MS" FontSize="14"  />
-        <TextBox Name="op2" HorizontalAlignment="Left" Height="20" Margin="130,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  Foreground="#03045E" FontFamily="Comic Sans MS" FontSize="14"  />
-        <TextBox Name="op3" HorizontalAlignment="Left" Height="20" Margin="230,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  Foreground="#03045E" FontFamily="Comic Sans MS" FontSize="14"  />
-        <TextBox Name="op4" HorizontalAlignment="Left" Height="20" Margin="330,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  Foreground="#03045E" FontFamily="Comic Sans MS" FontSize="14"  />
-        <TextBox Name="op5" HorizontalAlignment="Left" Height="20" Margin="430,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged_1" Grid.ColumnSpan="2"  Foreground="#03045E" FontFamily="Comic Sans MS" FontSize="14"  />
-        <Label Content="Δ " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,170,0,0"  Height="30" Width="40"  Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="14" RenderTransformOrigin="0.7,-1.25"/>
-        <Label Content="Δx1 " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,170,0,0"  Height="30" Width="50"  Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14" Foreground="#03045E"/>
-        <Label Content="Δx2 " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="240,170,0,0"  Height="30" Width="50"  Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14" Foreground="#03045E"/>
-        <Label Content="Δx3 " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,170,0,0"  Height="30" Width="50"  Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14" Foreground="#03045E"/>
-        <Label Content="Δx4 " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="440,170,0,0"  Height="30" Width="50"  Grid.ColumnSpan="2"  FontFamily="Comic Sans MS" FontSize="14" Foreground="#03045E"/>
-        <Button Grid.ColumnSpan="2" Content="Очистить" HorizontalAlignment="Left" Margin="100,320,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1" Height="30"   FontFamily="Comic Sans MS" FontSize="15" Foreground="#03045E" Background="#00B4D8"/>
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Yeah..." WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+    <!-- SizeToContent="WidthAndHeight" -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/bg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+
+        <Frame x:Name="Main" Margin="50" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
